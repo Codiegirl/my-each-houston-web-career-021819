@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
+def my_each (array)
+  array.while do |element|
+    yield
+    
   # code here
 end
